@@ -143,10 +143,19 @@ export class ${1}Directive {${6}}
 
 ### Service
 
+**Trigger:** `service`
+
 <table>
   <tr>
     <th>description</th>
     <th>completion</th>
+  </tr>
+  <tr>
+    <td>Service</td>
+    <td><pre style="padding:0; margin:0;"><code>
+@Injectable()
+export class ${1}Service {${2}}
+    </code></pre></td>
   </tr>
 </table>
 
