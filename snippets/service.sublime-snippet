@@ -1,0 +1,9 @@
+<snippet>
+  <content><![CDATA[
+@Injectable()
+export class $1Service {$2}
+]]></content>
+  <tabTrigger>service</tabTrigger>
+  <scope>source.js</scope>
+  <description>Service - Angular2</description>
+</snippet>
