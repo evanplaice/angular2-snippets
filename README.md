@@ -30,6 +30,7 @@ This package provides snippets and completions for Angular2. Sublime Text uses f
 - [Directive](#directive)
 - [Service](#service)
 - [Pipe](#pipe)
+- [RouteConfig](#routeconfig)
 - [Route](#route)
 - [Test](#test)
 
@@ -184,6 +185,38 @@ export class ${1}Pipe implements PipeTransform {
 export class ${1}Pipe {
   transform (value, args) {${3}}
 }
+    </code></pre></td>
+  </tr>
+</table>
+
+### RouteConfig
+
+**Trigger:** `routeconfig`
+
+<table>
+  <tr>
+    <th>description</th>
+    <th>completion</th>
+  </tr>
+  <tr>
+    <td>@RouteConfig</td>
+    <td><pre style="padding:0; margin:0;"><code>
+@RouteConfig([
+  ${1}
+])
+    </code></pre></td>
+  </tr>
+  <tr>
+    <td>@RouteConfig (Basic)</td>
+    <td><pre style="padding:0; margin:0; background-color: #fff;"><code>
+@RouteConfig([
+  {
+    path: '/${1}',
+    name: '${2}',
+    component: ${2}Component,
+    useAsDefault: true
+  }${3}
+]
     </code></pre></td>
   </tr>
 </table>
