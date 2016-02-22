@@ -41,5 +41,11 @@
     { "trigger": "ngOnDestroy", "contents": "ngOnDestroy($1) {\n  $2\n}" },
 
     // Routing
+    { "trigger": "@CanActivate", "contents": "@CanActivate($1)" },
+    { "trigger": "routerOnActivate", "contents": "routerOnActivate($1) {\n  $2\n}" },
+    { "trigger": "routerCanReuse", "contents": "routerCanReuse($1) {\n  $2\n}" },
+    { "trigger": "routerOnReuse", "contents": "routerOnReuse($1) {\n  $2\n}" },
+    { "trigger": "routerCanDeactivate", "contents": "routerCanDeactivate($1) {\n  $2\n}" },
+    { "trigger": "routerOnDeactivate", "contents": "routerOnDeactivate($1) {\n  $2\n}" }
   ]
 }
