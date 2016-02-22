@@ -1,0 +1,9 @@
+<snippet>
+  <content><![CDATA[
+@Directive({$2})
+export class $1Directive {$3}
+]]></content>
+  <tabTrigger>directive</tabTrigger>
+  <scope>source.js</scope>
+  <description>@Directive - Angular2</description>
+</snippet>
