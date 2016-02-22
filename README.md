@@ -430,6 +430,60 @@ host: {
     <th>trigger</th>
     <th>completion</th>
   </tr>
+  <tr>
+    <td>@Inject</td>
+    <td><pre style="padding:0; margin:0;"><code>
+@Inject($1) $2
+    </code></pre></td>
+  </tr>
+  <tr>
+    <td>@Input</td>
+    <td><pre style="padding:0; margin:0; background-color: #fff;"><code>
+@Input($1) $2
+    </code></pre></td>
+  </tr>
+  <tr>
+    <td>@Output</td>
+    <td><pre style="padding:0; margin:0;"><code>
+@Output($1) $2 = $3
+    </code></pre></td>
+  </tr>
+  <tr>
+    <td>@HostBinding</td>
+    <td><pre style="padding:0; margin:0; background-color: #fff;"><code>
+@HostBinding($1) $2
+    </code></pre></td>
+  </tr>
+  <tr>
+    <td>@HostListener</td>
+    <td><pre style="padding:0; margin:0; background-color: #fff;"><code>
+@HostListener('$1', ['$2'])
+    </code></pre></td>
+  </tr>
+  <tr>
+    <td>@ContentChild</td>
+    <td><pre style="padding:0; margin:0; background-color: #fff;"><code>
+@ContentChild($1)
+    </code></pre></td>
+  </tr>
+  <tr>
+    <td>@ContentChildren</td>
+    <td><pre style="padding:0; margin:0; background-color: #fff;"><code>
+@ContentChildren($1)
+    </code></pre></td>
+  </tr>
+  <tr>
+    <td>@ViewChild</td>
+    <td><pre style="padding:0; margin:0; background-color: #fff;"><code>
+@ViewChild($1)
+    </code></pre></td>
+  </tr>
+  <tr>
+    <td>@ViewChildren</td>
+    <td><pre style="padding:0; margin:0; background-color: #fff;"><code>
+@ViewChildren($1)
+    </code></pre></td>
+  </tr>
 </table>
 
 ### Lifecycle
