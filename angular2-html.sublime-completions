@@ -1,0 +1,14 @@
+{
+  "scope": "text.html meta.tag",
+
+  "completions":
+  [
+    // Routing
+
+    // Directives
+
+    // Attributes
+
+    // Pipes
+  ]
+}
