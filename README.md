@@ -318,7 +318,7 @@ export class ${1}Pipe {
 
 <table>
   <tr>
-    <th>description</th>
+    <th>trigger</th>
     <th>completion</th>
   </tr>
 </table>
@@ -327,7 +327,7 @@ export class ${1}Pipe {
 
 <table>
   <tr>
-    <th>description</th>
+    <th>trigger</th>
     <th>completion</th>
   </tr>
 </table>
@@ -336,7 +336,7 @@ export class ${1}Pipe {
 
 <table>
   <tr>
-    <th>description</th>
+    <th>trigger</th>
     <th>completion</th>
   </tr>
 </table>
@@ -345,7 +345,7 @@ export class ${1}Pipe {
 
 <table>
   <tr>
-    <th>description</th>
+    <th>trigger</th>
     <th>completion</th>
   </tr>
 </table>
@@ -354,7 +354,7 @@ export class ${1}Pipe {
 
 <table>
   <tr>
-    <th>description</th>
+    <th>trigger</th>
     <th>completion</th>
   </tr>
 </table>
@@ -363,7 +363,7 @@ export class ${1}Pipe {
 
 <table>
   <tr>
-    <th>description</th>
+    <th>trigger</th>
     <th>completion</th>
   </tr>
 </table>
@@ -372,7 +372,7 @@ export class ${1}Pipe {
 
 <table>
   <tr>
-    <th>description</th>
+    <th>trigger</th>
     <th>completion</th>
   </tr>
 </table>
