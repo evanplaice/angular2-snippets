@@ -3,12 +3,27 @@
 
   "completions":
   [
-    // Routing
-
     // Directives
+        // NgClass
+        // NgIf
+        // NgFor
+        // NgSwitch
+        // NgSwitchWhen
+        // NgSwitchDefault
+        // NgModel
+        // NgForm
 
-    // Attributes
 
     // Pipes
+        // async
+        // currency
+        // date
+        // decimal
+        // json
+        // lowercase
+        // number
+        // percent
+        // slice
+        // uppercase
   ]
 }
