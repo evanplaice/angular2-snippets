@@ -2,6 +2,26 @@
 
 This package provides snippets and completions for Angular2. Sublime Text uses fuzzy searching for snippets/completions, therefore you can trigger either without having to write out the whole trigger.
 
+## Installation
+
+**Package Control**
+
+- open the `Command Palette` (⌘ + ⇧ + p | SUPER + SHIFT + p)
+- select `Package Control: Install Package` (p + i)
+- select `Angular2 Snippets`
+
+**Manual**
+
+- copy/clone the files into your Sublime Text User Preferences folder
+
+**Config**
+
+- to enable auto-completion add the following to `User.sublime-preferences`
+
+  ```json
+  "auto_complete_triggers": [ {"selector": "text.html", "characters": "<"}, {"selector": "text.html meta.tag", "characters": " " } ]
+  ```
+
 ## Directory
 
 **Snippet Categories:**
