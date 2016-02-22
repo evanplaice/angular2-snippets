@@ -58,7 +58,7 @@ This package provides snippets and completions for Angular2. Sublime Text uses f
     <td>@Component</td>
     <td><pre style="padding:0; margin:0;"><code>
 @Component(${2})
-export class ${1}Component {}
+export class ${1}Component {${3}}
     </code></pre></td>
   </tr>
   <tr>
