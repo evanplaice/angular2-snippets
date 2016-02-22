@@ -104,10 +104,40 @@ export class ${1}Component {${11}}
 
 ### Directive
 
+**Trigger:** `directive`
+
 <table>
   <tr>
     <th>description</th>
     <th>completion</th>
+  </tr>
+  <tr>
+    <td>@Directive</td>
+    <td><pre style="padding:0; margin:0;"><code>
+@Directive({${2}})
+export class ${1}Directive {${3}}
+    </code></pre></td>
+  </tr>
+  <tr>
+    <td>@Directive (Basic)</td>
+    <td><pre style="padding:0; margin:0; background-color: #fff;"><code>
+@Directive({
+  selector: '${2}'
+})
+export class ${1}Directive {${3}}
+    </code></pre></td>
+  </tr>
+  <tr>
+    <td>@Directive (Complex)</td>
+    <td><pre style="padding:0; margin:0;"><code>
+@Directive({
+  selector: '${2}',
+  providers: ['${3}'],
+  properties: ['${4}'],
+  host: {'${5}'}
+})
+export class ${1}Directive {${6}}
+    </code></pre></td>
   </tr>
 </table>
 
