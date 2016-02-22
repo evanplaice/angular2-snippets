@@ -456,7 +456,7 @@ host: {
   </tr>
   <tr>
     <td>@HostListener</td>
-    <td><pre style="padding:0; margin:0; background-color: #fff;"><code>
+    <td><pre style="padding:0; margin:0;"><code>
 @HostListener('$1', ['$2'])
     </code></pre></td>
   </tr>
@@ -468,7 +468,7 @@ host: {
   </tr>
   <tr>
     <td>@ContentChildren</td>
-    <td><pre style="padding:0; margin:0; background-color: #fff;"><code>
+    <td><pre style="padding:0; margin:0;"><code>
 @ContentChildren($1)
     </code></pre></td>
   </tr>
@@ -480,7 +480,7 @@ host: {
   </tr>
   <tr>
     <td>@ViewChildren</td>
-    <td><pre style="padding:0; margin:0; background-color: #fff;"><code>
+    <td><pre style="padding:0; margin:0;"><code>
 @ViewChildren($1)
     </code></pre></td>
   </tr>
@@ -492,6 +492,78 @@ host: {
   <tr>
     <th>trigger</th>
     <th>completion</th>
+  </tr>
+  <tr>
+    <td>constructor</td>
+    <td><pre style="padding:0; margin:0;"><code>
+constructor($1) {
+  $2
+}
+    </code></pre></td>
+  </tr>
+  <tr>
+    <td>ngOnChanges</td>
+    <td><pre style="padding:0; margin:0; background-color: #fff;"><code>
+ngOnChanges($1) {
+  $2
+}
+    </code></pre></td>
+  </tr>
+  <tr>
+    <td>ngOnInit</td>
+    <td><pre style="padding:0; margin:0;"><code>
+ngOnInit($1) {
+  $2
+}
+    </code></pre></td>
+  </tr>
+  <tr>
+    <td>ngDoCheck</td>
+    <td><pre style="padding:0; margin:0; background-color: #fff;"><code>
+ngDoCheck($1) {
+  $2
+}
+    </code></pre></td>
+  </tr>
+  <tr>
+    <td>ngAfterContentInit</td>
+    <td><pre style="padding:0; margin:0;"><code>
+ngAfterContentInit($1) {
+  $2
+}
+    </code></pre></td>
+  </tr>
+  <tr>
+    <td>ngAfterContentChecked</td>
+    <td><pre style="padding:0; margin:0; background-color: #fff;"><code>
+ngAfterContentChecked($1) {
+  $2
+}
+    </code></pre></td>
+  </tr>
+  <tr>
+    <td>ngAfterViewInit</td>
+    <td><pre style="padding:0; margin:0;"><code>
+ngAfterViewInit($1) {
+  $2
+}
+    </code></pre></td>
+  </tr>
+  <tr>
+    <td>ngAfterViewChecked</td>
+    <td><pre style="padding:0; margin:0; background-color: #fff;"><code>
+ngAfterViewChecked($1) {
+  $2
+}
+    </code></pre></td>
+  </tr>
+  <tr>
+    <td>ngOnDestroy</td>
+    <td><pre style="padding:0; margin:0;"><code>
+ngOnDestroy($1) {
+  $2
+}
+    </code></pre></td>
   </tr>
 </table>
 
