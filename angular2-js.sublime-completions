@@ -4,6 +4,19 @@
   "completions":
   [
     // Annotations
+    { "trigger": "selector", "contents": "selector: '$1'" },
+    { "trigger": "inputs", "contents": "inputs: [\n  '$1'\n]" },
+    { "trigger": "outputs", "contents": "outputs: [\n  '$1'\n]" },
+    { "trigger": "providers", "contents": "providers: [\n  $1\n]" },
+    { "trigger": "viewProviders", "contents": "viewProviders: [\n  $1\n]" },
+    { "trigger": "template", "contents": "template: `\n$1\n`" },
+    { "trigger": "templateUrl", "contents": "templateUrl: '$1'" },
+    { "trigger": "styles", "contents": "styles: `\n$1\n`" },
+    { "trigger": "styleUrls", "contents": "styleUrls: [\n  '$1'\n]" },
+    { "trigger": "directives", "contents": "directives: [\n  $1\n]" },
+    { "trigger": "pipes", "contents": "pipes: [\n  $1\n]" },
+    { "trigger": "properties", "contents": "properties: [\n  '$1'\n]" },
+    { "trigger": "host", "contents": "host: {\n  '$1': '$2'\n}" },
 
     // Decorators
 
