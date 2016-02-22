@@ -49,7 +49,7 @@ This package provides snippets and completions for Angular2. Sublime Text uses f
 
 <table>
   <tr>
-    <th>trigger</th>
+    <th>description</th>
     <th>completion</th>
   </tr>
 </table>
@@ -58,7 +58,7 @@ This package provides snippets and completions for Angular2. Sublime Text uses f
 
 <table>
   <tr>
-    <th>trigger</th>
+    <th>description</th>
     <th>completion</th>
   </tr>
 </table>
@@ -67,7 +67,7 @@ This package provides snippets and completions for Angular2. Sublime Text uses f
 
 <table>
   <tr>
-    <th>trigger</th>
+    <th>description</th>
     <th>completion</th>
   </tr>
 </table>
@@ -76,7 +76,7 @@ This package provides snippets and completions for Angular2. Sublime Text uses f
 
 <table>
   <tr>
-    <th>trigger</th>
+    <th>description</th>
     <th>completion</th>
   </tr>
 </table>
@@ -85,7 +85,7 @@ This package provides snippets and completions for Angular2. Sublime Text uses f
 
 <table>
   <tr>
-    <th>trigger</th>
+    <th>description</th>
     <th>completion</th>
   </tr>
 </table>
@@ -94,7 +94,7 @@ This package provides snippets and completions for Angular2. Sublime Text uses f
 
 <table>
   <tr>
-    <th>trigger</th>
+    <th>description</th>
     <th>completion</th>
   </tr>
 </table>
@@ -105,7 +105,7 @@ This package provides snippets and completions for Angular2. Sublime Text uses f
 
 <table>
   <tr>
-    <th>trigger</th>
+    <th>description</th>
     <th>completion</th>
   </tr>
 </table>
@@ -114,7 +114,7 @@ This package provides snippets and completions for Angular2. Sublime Text uses f
 
 <table>
   <tr>
-    <th>trigger</th>
+    <th>description</th>
     <th>completion</th>
   </tr>
 </table>
@@ -123,7 +123,7 @@ This package provides snippets and completions for Angular2. Sublime Text uses f
 
 <table>
   <tr>
-    <th>trigger</th>
+    <th>description</th>
     <th>completion</th>
   </tr>
 </table>
@@ -132,7 +132,7 @@ This package provides snippets and completions for Angular2. Sublime Text uses f
 
 <table>
   <tr>
-    <th>trigger</th>
+    <th>description</th>
     <th>completion</th>
   </tr>
 </table>
@@ -141,7 +141,7 @@ This package provides snippets and completions for Angular2. Sublime Text uses f
 
 <table>
   <tr>
-    <th>trigger</th>
+    <th>description</th>
     <th>completion</th>
   </tr>
 </table>
@@ -150,7 +150,7 @@ This package provides snippets and completions for Angular2. Sublime Text uses f
 
 <table>
   <tr>
-    <th>trigger</th>
+    <th>description</th>
     <th>completion</th>
   </tr>
 </table>
@@ -159,7 +159,7 @@ This package provides snippets and completions for Angular2. Sublime Text uses f
 
 <table>
   <tr>
-    <th>trigger</th>
+    <th>description</th>
     <th>completion</th>
   </tr>
 </table>
