@@ -321,6 +321,106 @@ export class ${1}Pipe {
     <th>trigger</th>
     <th>completion</th>
   </tr>
+  <tr>
+    <td>selector</td>
+    <td><pre style="padding:0; margin:0;"><code>
+selector: '$1'
+    </code></pre></td>
+  </tr>
+  <tr>
+    <td>inputs</td>
+    <td><pre style="padding:0; margin:0; background-color: #fff;"><code>
+inputs: [
+  '$1'
+]
+    </code></pre></td>
+  </tr>
+  <tr>
+    <td>outputs</td>
+    <td><pre style="padding:0; margin:0;"><code>
+outputs: [
+  '$1'
+]
+    </code></pre></td>
+  </tr>
+  <tr>
+    <td>providers</td>
+    <td><pre style="padding:0; margin:0; background-color: #fff;"><code>
+providers: [
+  $1
+]
+    </code></pre></td>
+  </tr>
+  <tr>
+    <td>viewProviders</td>
+    <td><pre style="padding:0; margin:0;"><code>
+viewProviders: [
+  $1
+]
+    </code></pre></td>
+  </tr>
+  <tr>
+    <td>template</td>
+    <td><pre style="padding:0; margin:0; background-color: #fff;"><code>
+template: `
+$1
+`
+    </code></pre></td>
+  </tr>
+  <tr>
+    <td>templateUrl</td>
+    <td><pre style="padding:0; margin:0;"><code>
+templateUrl: '$1'
+    </code></pre></td>
+  </tr>
+  <tr>
+    <td>styles</td>
+    <td><pre style="padding:0; margin:0; background-color: #fff;"><code>
+styles: `
+$1
+`
+    </code></pre></td>
+  </tr>
+  <tr>
+    <td>styleUrls</td>
+    <td><pre style="padding:0; margin:0;"><code>
+styleUrls: [
+  '$1'
+]
+    </code></pre></td>
+  </tr>
+  <tr>
+    <td>directives</td>
+    <td><pre style="padding:0; margin:0; background-color: #fff;"><code>
+directives: [
+  $1
+]
+    </code></pre></td>
+  </tr>
+  <tr>
+    <td>pipes</td>
+    <td><pre style="padding:0; margin:0;"><code>
+pipes: [
+  $1
+]
+    </code></pre></td>
+  </tr>
+  <tr>
+    <td>properties</td>
+    <td><pre style="padding:0; margin:0; background-color: #fff;"><code>
+properties: [
+  '$1'
+]
+    </code></pre></td>
+  </tr>
+  <tr>
+    <td>host</td>
+    <td><pre style="padding:0; margin:0;"><code>
+host: {
+  '$1': '$2'
+}
+    </code></pre></td>
+  </tr>
 </table>
 
 ### Decorators
