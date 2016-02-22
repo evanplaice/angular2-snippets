@@ -47,10 +47,58 @@ This package provides snippets and completions for Angular2. Sublime Text uses f
 
 ### Component
 
+**Trigger:** `component`
+
 <table>
   <tr>
     <th>description</th>
     <th>completion</th>
+  </tr>
+  <tr>
+    <td>@Component</td>
+    <td><pre style="padding:0; margin:0;"><code>
+@Component(${2})
+export class ${1}Component {}
+    </code></pre></td>
+  </tr>
+  <tr>
+    <td>@Component (Basic)</td>
+    <td><pre style="padding:0; margin:0; background-color: #fff;"><code>
+@Component({
+  selector: '${2}',
+  template: '${3}',
+  styles: '${4}'
+})
+export class ${1}Component {${5}}
+    </code></pre></td>
+  </tr>
+  <tr>
+    <td>@Component (External)</td>
+    <td><pre style="padding:0; margin:0;"><code>
+@Component({
+  selector: '${2}',
+  templateUrl: '${3}',
+  styleUrls: ['${4}']
+})
+export class ${1}Component {${5}}
+    </code></pre></td>
+  </tr>
+  <tr>
+    <td>@Component (Complex)</td>
+    <td><pre style="padding:0; margin:0; background-color: #fff;"><code>
+@Component({
+  selector: '${2}',
+  providers: ['${3}'],
+  viewProviders: ['${4}'],
+  template: '${5}',
+  templateUrl: '${6}',
+  styles: '${7}',
+  styleUrls: ['${8}'],
+  directives: ['${9}'],
+  pipes: ['${10}']
+})
+export class ${1}Component {${11}}
+    </code></pre></td>
   </tr>
 </table>
 
