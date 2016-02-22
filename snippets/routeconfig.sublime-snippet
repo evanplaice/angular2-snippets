@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+@RouteConfig([
+  $1
+])
+]]></content>
+  <tabTrigger>routeconfig</tabTrigger>
+  <scope>source.js</scope>
+  <description>@RouteConfig</description>
+</snippet>
