@@ -1,0 +1,19 @@
+<snippet>
+  <content><![CDATA[
+@Component({
+  selector: '$2',
+  providers: ['$3'],
+  viewProviders: ['$4'],
+  template: '$5',
+  templateUrl: '$6',
+  styles: '$7',
+  styleUrls: ['$8'],
+  directives: ['$9'],
+  pipes: ['$10']
+})
+export class $1Component {$11}
+  ]]></content>
+  <tabTrigger>component</tabTrigger>
+  <scope>source.js</scope>
+  <description>@Component (Complex) - Angular2</description>
+</snippet>
