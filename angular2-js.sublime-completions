@@ -1,0 +1,20 @@
+{
+  "scope": "source.js",
+
+  "completions":
+  [
+    // Annotations
+
+    // Decorators
+
+    // Lifecycle
+
+    // Routing
+
+    // Directives
+
+    // Attributes
+
+    // Pipes
+  ]
+}
