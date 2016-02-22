@@ -161,10 +161,30 @@ export class ${1}Service {${2}}
 
 ### Pipe
 
+**Trigger:** `pipe`
+
 <table>
   <tr>
     <th>description</th>
     <th>completion</th>
+  </tr>
+  <tr>
+    <td>Pipe</td>
+    <td><pre style="padding:0; margin:0;"><code>
+@Pipe({ name: '${2}' })
+export class ${1}Pipe implements PipeTransform {
+  transform (value:number, args:${3:any}[]) : ${4:any} {${5}}
+}
+    </code></pre></td>
+  </tr>
+  <tr>
+    <td>Pipe (ES6)</td>
+    <td><pre style="padding:0; margin:0; background-color: #fff;"><code>
+@Pipe({ name: '${2}' })
+export class ${1}Pipe {
+  transform (value, args) {${3}}
+}
+    </code></pre></td>
   </tr>
 </table>
 
