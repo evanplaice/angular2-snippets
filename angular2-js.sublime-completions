@@ -19,6 +19,15 @@
     { "trigger": "host", "contents": "host: {\n  '$1': '$2'\n}" },
 
     // Decorators
+    { "trigger": "@Inject", "contents": "@Inject($1) $2" },
+    { "trigger": "@Input", "contents": "@Input($1) $2" },
+    { "trigger": "@Output", "contents": "@Output($1) $2 = $3" },
+    { "trigger": "@HostBinding", "contents": "@HostBinding($1) $2" },
+    { "trigger": "@HostListener", "contents": "@HostListener('$1', ['$2'])" },
+    { "trigger": "@ContentChild", "contents": "@ContentChild($1)" },
+    { "trigger": "@ContentChildren", "contents": "@ContentChildren($1)" },
+    { "trigger": "@ViewChild", "contents": "@ViewChild($1)" },
+    { "trigger": "@ViewChildren", "contents": "@ViewChildren($1)" },
 
     // Lifecycle
 
