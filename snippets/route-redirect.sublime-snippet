@@ -1,0 +1,11 @@
+<snippet>
+  <content><![CDATA[
+{
+  path: '/${1:**}',
+  redirectTo: ['$2']
+}$3
+]]></content>
+  <tabTrigger>route</tabTrigger>
+  <scope>source.js</scope>
+  <description>Route (Redirect)</description>
+</snippet>
