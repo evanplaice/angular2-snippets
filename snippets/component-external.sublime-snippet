@@ -1,0 +1,13 @@
+<snippet>
+  <content><![CDATA[
+@Component({
+  selector: '$2',
+  templateUrl: '$3',
+  styleUrls: ['$4']
+})
+export class $1Component {$5}
+  ]]></content>
+  <tabTrigger>component</tabTrigger>
+  <scope>source.js</scope>
+  <description>@Component (External) - Angular2</description>
+</snippet>
