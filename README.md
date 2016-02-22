@@ -574,6 +574,52 @@ ngOnDestroy($1) {
     <th>trigger</th>
     <th>completion</th>
   </tr>
+  <tr>
+    <td>@CanActivate</td>
+    <td><pre style="padding:0; margin:0;"><code>
+@CanActivate($1)
+    </code></pre></td>
+  </tr>
+  <tr>
+    <td>routerOnActivate</td>
+    <td><pre style="padding:0; margin:0; background-color: #fff;"><code>
+routerOnActivate($1) {
+  $2
+}
+    </code></pre></td>
+  </tr>
+  <tr>
+    <td>routerCanReuse</td>
+    <td><pre style="padding:0; margin:0;"><code>
+routerCanReuse($1) {
+  $2
+}
+    </code></pre></td>
+  </tr>
+  <tr>
+    <td>routerOnReuse</td>
+    <td><pre style="padding:0; margin:0; background-color: #fff;"><code>
+routerOnReuse($1) {
+  $2
+}
+    </code></pre></td>
+  </tr>
+  <tr>
+    <td>routerCanDeactivate</td>
+    <td><pre style="padding:0; margin:0;"><code>
+routerCanDeactivate($1) {
+  $2
+}
+    </code></pre></td>
+  </tr>
+  <tr>
+    <td>routerOnDeactivate</td>
+    <td><pre style="padding:0; margin:0;"><code>
+routerOnDeactivate($1) {
+  $2
+}
+    </code></pre></td>
+  </tr>
 </table>
 
 ### Directives
