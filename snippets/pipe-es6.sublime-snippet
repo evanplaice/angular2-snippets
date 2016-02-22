@@ -1,0 +1,11 @@
+<snippet>
+  <content><![CDATA[
+@Pipe({ name: '$2' })
+export class $1Pipe {
+  transform (value, args) {$3}
+}
+]]></content>
+  <tabTrigger>pipe</tabTrigger>
+  <scope>source.js</scope>
+  <description>Pipe (ES6)</description>
+</snippet>
