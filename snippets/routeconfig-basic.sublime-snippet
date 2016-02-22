@@ -1,0 +1,14 @@
+<snippet>
+  <content><![CDATA[
+@RouteConfig([
+  {
+    path: '/$1',
+    name: '$2',
+    component: $2Component,
+    useAsDefault: true
+  }$3
+]]]></content>
+  <tabTrigger>routeconfig</tabTrigger>
+  <scope>source.js</scope>
+  <description>@RouteConfig (Basic)</description>
+</snippet>
