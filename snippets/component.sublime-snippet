@@ -2,7 +2,7 @@
   <content><![CDATA[
 @Component({$2})
 export class $1Component {$3}
-  ]]></content>
+]]></content>
   <tabTrigger>component</tabTrigger>
   <scope>source.js</scope>
   <description>@Component - Angular2</description>

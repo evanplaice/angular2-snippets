@@ -12,7 +12,7 @@
   pipes: ['$10']
 })
 export class $1Component {$11}
-  ]]></content>
+]]></content>
   <tabTrigger>component</tabTrigger>
   <scope>source.js</scope>
   <description>@Component (Complex) - Angular2</description>
