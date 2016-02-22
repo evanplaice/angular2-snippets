@@ -1,6 +1,7 @@
 # Angular2 Snippets for Sublime Text
 
-A snippet and completion library for Angular2 applications.
+This package provides snippets and completions for Angular2. Sublime Text uses fuzzy searching for snippets/completions, therefore you can trigger either without having to write out the whole trigger.
+
 ## Directory
 
 **Snippet Categories:**
