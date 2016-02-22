@@ -30,6 +30,15 @@
     { "trigger": "@ViewChildren", "contents": "@ViewChildren($1)" },
 
     // Lifecycle
+    { "trigger": "constructor", "contents": "constructor($1) {\n  $2\n}" },
+    { "trigger": "ngOnChanges", "contents": "ngOnChanges($1) {\n  $2\n}" },
+    { "trigger": "ngOnInit", "contents": "ngOnInit($1) {\n  $2\n}" },
+    { "trigger": "ngDoCheck", "contents": "ngDoCheck($1) {\n  $2\n}" },
+    { "trigger": "ngAfterContentInit", "contents": "ngAfterContentInit($1) {\n  $2\n}" },
+    { "trigger": "ngAfterContentChecked", "contents": "ngAfterContentChecked($1) {\n  $2\n}" },
+    { "trigger": "ngAfterViewInit", "contents": "ngAfterViewInit($1) {\n  $2\n}" },
+    { "trigger": "ngAfterViewChecked", "contents": "ngAfterViewChecked($1) {\n  $2\n}" },
+    { "trigger": "ngOnDestroy", "contents": "ngOnDestroy($1) {\n  $2\n}" },
 
     // Routing
 
