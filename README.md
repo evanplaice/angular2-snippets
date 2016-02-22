@@ -223,10 +223,83 @@ export class ${1}Pipe {
 
 ### Route
 
+**Trigger:** `route`
+
 <table>
   <tr>
     <th>description</th>
     <th>completion</th>
+  </tr>
+  <tr>
+    <td>Route</td>
+    <td><pre style="padding:0; margin:0;"><code>
+{
+  path: '/${1}',
+  name: '${2}',
+  component: ${2}Component
+}${3}
+    </code></pre></td>
+  </tr>
+  <tr>
+    <td>Route (Default)</td>
+    <td><pre style="padding:0; margin:0; background-color: #fff;"><code>
+{
+  path: '/${1}',
+  name: '${2}',
+  component: ${2}Component,
+  useAsDefault: true
+}${3}
+    </code></pre></td>
+  </tr>
+  <tr>
+    <td>Route (Redirect)</td>
+    <td><pre style="padding:0; margin:0;"><code>
+{
+  path: '/${1:**}',
+  redirectTo: ['${2}']
+}${3}
+    </code></pre></td>
+  </tr>
+  <tr>
+    <td>Route (Param)</td>
+    <td><pre style="padding:0; margin:0; background-color: #fff;"><code>
+{
+  path: '/${1}:${2}',
+  name: '${3}',
+  component: ${3}Component
+}${4}
+    </code></pre></td>
+  </tr>
+  <tr>
+    <td>Route (Wildcard)</td>
+    <td><pre style="padding:0; margin:0;"><code>
+{
+  path: '/${1}*${2}',
+  name: '${3}',
+  component: ${3}Component
+}${4}
+    </code></pre></td>
+  </tr>
+  <tr>
+    <td>Route (Data)</td>
+    <td><pre style="padding:0; margin:0; background-color: #fff;"><code>
+{
+  path: '/${1}',
+  name: '${2}',
+  component: ${2}Component,
+  data: {${3}: ${4}}
+}${5}
+    </code></pre></td>
+  </tr>
+  <tr>
+    <td>Route (Parent)</td>
+    <td><pre style="padding:0; margin:0;"><code>
+{
+  path: '/${1}...',
+  name: '${2}',
+  component: ${2}Component
+}${3}
+    </code></pre></td>
   </tr>
 </table>
 
