@@ -1,0 +1,14 @@
+<snippet>
+  <content><![CDATA[
+@Directive({
+  selector: '$2',
+  providers: ['$3'],
+  properties: ['$4'],
+  host: {'$5'}
+})
+export class $1Directive {$6}
+]]></content>
+  <tabTrigger>directive</tabTrigger>
+  <scope>source.js</scope>
+  <description>@Directive (Complex) - Angular2</description>
+</snippet>
