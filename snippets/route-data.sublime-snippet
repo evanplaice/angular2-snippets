@@ -1,0 +1,13 @@
+<snippet>
+  <content><![CDATA[
+{
+  path: '/$1',
+  name: '$2',
+  component: $2Component,
+  data: {$3: $4}
+}$5
+]]></content>
+  <tabTrigger>route</tabTrigger>
+  <scope>source.js</scope>
+  <description>Route (Data)</description>
+</snippet>
