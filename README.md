@@ -629,14 +629,53 @@ routerOnDeactivate($1) {
     <th>trigger</th>
     <th>completion</th>
   </tr>
-</table>
-
-### Attributes
-
-<table>
   <tr>
-    <th>trigger</th>
-    <th>completion</th>
+    <td>ngClass</td>
+    <td><code><pre>[ngClass]="$1"</pre></code></td>
+  </tr>
+  <tr>
+    <td>ngIf</td>
+    <td><code><pre>*ngIf="$1"</pre></code></td>
+  </tr>
+  <tr>
+    <td>ngIf</td>
+    <td><code><pre>[ngIf]="$1"</pre></code></td>
+  </tr>
+  <tr>
+    <td>ngFor</td>
+    <td><code><pre>*ngFor="let $1 of $2"</pre></code></td>
+  </tr>
+  <tr>
+    <td>ngForOf</td>
+    <td><code><pre>[ngForOf]="$1"</pre></code></td>
+  </tr>
+  <tr>
+    <td>ngStyle</td>
+    <td><code><pre>[ngStyle]="$1"</pre></code></td>
+  </tr>
+  <tr>
+    <td>ngSwitch</td>
+    <td><code><pre>[ngSwitch]="$1"</pre></code></td>
+  </tr>
+  <tr>
+    <td>ngSwitchDefault</td>
+    <td><code><pre>[ngSwitchDefault]="$1"</pre></code></td>
+  </tr>
+  <tr>
+    <td>ngSwitchWhen</td>
+    <td><code><pre>[ngSwitchWhen]="$1"</pre></code></td>
+  </tr>
+  <tr>
+    <td>ngModel</td>
+    <td><code><pre>[ngModel]="$1"</pre></code></td>
+  </tr>
+  <tr>
+    <td>ngModel</td>
+    <td><code><pre>[(ngModel)]="$1"</pre></code></td>
+  </tr>
+  <tr>
+    <td>ngModelChange</td>
+    <td><code><pre>(ngModelChange)="$1"</pre></code></td>
   </tr>
 </table>
 

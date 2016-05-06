@@ -7,10 +7,13 @@
         // NgClass
         // NgIf
         // NgFor
+        // NgForOf
+        // NgStyle
         // NgSwitch
-        // NgSwitchWhen
         // NgSwitchDefault
+        // NgSwitchWhen
         // NgModel
+        // NgModelChange
         // NgForm
 
 
