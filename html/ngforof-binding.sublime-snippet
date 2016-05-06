@@ -1,5 +1,5 @@
 <snippet>
-  <content><![CDATA[[ngForOf]=""]]></content>
+  <content><![CDATA[[ngForOf]="$1"]]></content>
   <tabTrigger>ngForOf</tabTrigger>
   <scope>text.html, source.js</scope>
   <description>[] - Angular2</description>
