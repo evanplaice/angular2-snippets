@@ -1,0 +1,6 @@
+<snippet>
+  <content><![CDATA[[ngModel]="$1"]]></content>
+  <tabTrigger>ngModel</tabTrigger>
+  <scope>text.html, source.js</scope>
+  <description>[] - Angular2</description>
+</snippet>
