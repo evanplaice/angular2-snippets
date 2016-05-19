@@ -6,6 +6,8 @@ This package provides snippets and completions for Angular2. Sublime Text uses f
 
 **Package Control**
 
+**Notice: submission to package control is still pending so 'Manual' install is the only option at this time.**
+
 - open the `Command Palette` (⌘ + ⇧ + p | SUPER + SHIFT + p)
 - select `Package Control: Install Package` (p + i)
 - select `Angular2 Snippets`
