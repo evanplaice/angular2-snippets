@@ -1,6 +1,6 @@
 <snippet>
   <content><![CDATA[[ngSwitch]="$1"]]></content>
   <tabTrigger>ngSwitch</tabTrigger>
-  <scope>text.html, source.js</scope>
+  <scope>text.html, source.js, source.ts</scope>
   <description>[] - Angular2</description>
 </snippet>

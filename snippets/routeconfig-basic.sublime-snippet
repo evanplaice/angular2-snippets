@@ -9,6 +9,6 @@
   }$3
 ]]]></content>
   <tabTrigger>routeconfig</tabTrigger>
-  <scope>source.js</scope>
+  <scope>source.js, source.ts</scope>
   <description>@RouteConfig (Basic)</description>
 </snippet>

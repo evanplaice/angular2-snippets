@@ -3,6 +3,9 @@
 
   "completions":
   [
+    // Note: HTML completions don't currently work due to an outstanding bug in ST3.
+    //  Snippets are used instead.
+
     // Directives
         // NgClass
         // NgIf
@@ -15,7 +18,6 @@
         // NgModel
         // NgModelChange
         // NgForm
-
 
     // Pipes
         // async

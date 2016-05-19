@@ -14,6 +14,6 @@
 export class $1Component {$11}
 ]]></content>
   <tabTrigger>component</tabTrigger>
-  <scope>source.js</scope>
+  <scope>source.js, source.ts</scope>
   <description>@Component (Complex) - Angular2</description>
 </snippet>

@@ -1,6 +1,6 @@
 <snippet>
   <content><![CDATA[*ngFor="let $1 of $2"]]></content>
   <tabTrigger>ngFor</tabTrigger>
-  <scope>text.html, source.js</scope>
+  <scope>text.html, source.js, source.ts</scope>
   <description>* - Angular2</description>
 </snippet>

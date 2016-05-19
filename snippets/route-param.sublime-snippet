@@ -7,6 +7,6 @@
 }$4
 ]]></content>
   <tabTrigger>route</tabTrigger>
-  <scope>source.js</scope>
+  <scope>source.js, source.ts</scope>
   <description>Route (Param)</description>
 </snippet>

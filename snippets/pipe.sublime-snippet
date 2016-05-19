@@ -6,6 +6,6 @@ export class $1Pipe implements PipeTransform {
 }
 ]]></content>
   <tabTrigger>pipe</tabTrigger>
-  <scope>source.js</scope>
+  <scope>source.js, source.ts</scope>
   <description>Pipe</description>
 </snippet>

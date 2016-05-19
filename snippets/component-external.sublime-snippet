@@ -8,6 +8,6 @@
 export class $1Component {$5}
 ]]></content>
   <tabTrigger>component</tabTrigger>
-  <scope>source.js</scope>
+  <scope>source.js, source.ts</scope>
   <description>@Component (External) - Angular2</description>
 </snippet>

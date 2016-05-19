@@ -4,6 +4,6 @@
 export class $1Directive {$3}
 ]]></content>
   <tabTrigger>directive</tabTrigger>
-  <scope>source.js</scope>
+  <scope>source.js, source.ts</scope>
   <description>@Directive - Angular2</description>
 </snippet>

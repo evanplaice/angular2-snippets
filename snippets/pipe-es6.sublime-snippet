@@ -6,6 +6,6 @@ export class $1Pipe {
 }
 ]]></content>
   <tabTrigger>pipe</tabTrigger>
-  <scope>source.js</scope>
+  <scope>source.js, source.ts</scope>
   <description>Pipe (ES6)</description>
 </snippet>
